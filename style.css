@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 24px;
+  padding-bottom: 150px;
+}
+.hero-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 24px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.hero-container {
+  display: flex;
+  width: 1140px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 100px;
+  flex-basis: 1 1 0;
+  gap: 40px;
+}
+.hero-text-box {
+  flex: 1 1 0%;
+}
+.hero-tittle {
+  font-size: 48px;
+  font-weight: 700;
+}
+.hero-text {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.hero-img {
+  background-color: #777;
+  flex: 2 1 0%;
+}
+.hero-img p {
+  text-align: center;
+  margin-top: 12.5%;
+}
+.hero-text-btn {
+  background-color: #3882f6;
+  padding: 8px 24px;
+  border-radius: 12px;
+  border: none;
+  color: #f9faf8;
+  font-size: 16px;
+}
+/*random information section*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info-tittle {
+  margin-top: 100px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+}
+.container-box {
+  width: 1440px;
+  display: flex;
+  margin-top: 64px;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 150px;
+}
+.box-img {
+  width: 180px;
+  height: 180px;
+  border: 3px solid #3882f6;
+  border-radius: 9px;
+  margin-bottom: 10px;
+}
+.box-text {
+  color: #1f2937;
+}
+/* quote section */
+.color {
+  background-color: #e5e7eb;
+}
+.quote {
+  max-width: 800px;
+  font-size: 38px;
+  font-style: italic;
+  margin: 100px 0;
+}
+.author {
+  text-align: right;
+  font-size: 16px;
+}
+/* section footer */
+.cta {
+  background-color: #3882f6;
+  margin: 100px 0;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  color: #f9faf8;
+  border-radius: 20px;
+}
+.cta-tittle{
+  font-size: 24px;
+  font-weight: bold;
+}
+.cta-btn {
+  border: 2px solid #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 30px;
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* footer section
+ */
+ footer{
+   background-color: #1f2937;
+   color: #f9faf8;
+   padding: 50px 0;
+   text-align: center;
+   font-size: 20px;
+ }
